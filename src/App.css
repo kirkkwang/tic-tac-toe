@@ -1,0 +1,54 @@
+.header,
+.turns {
+  text-align: center;
+}
+
+.restart {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.restart button {
+  font-size: 30px;
+  font-family: inherit;
+  background-color: transparent;
+  color: white;
+  border-radius: 10px;
+}
+
+.restart button:hover {
+  background-color: white;
+  color: black;
+}
+
+.gameboard {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 200px 200px 200px;
+  border: 4px solid;
+  border-style: solid;
+  align-items: right;
+}
+
+.square {
+  border: 4px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 150px;
+  border-style: solid;
+}
+
+#emojis {
+  justify-content: center;
+  text-align: center;
+  gap: 100px;
+  padding: 15px;
+}
+
+.player1,
+.player2 {
+  width: 30px;
+}
